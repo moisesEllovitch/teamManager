@@ -1,0 +1,76 @@
+<div class="content-dialog" >
+
+    <div class="title-dialog">
+        <span>{{dialogTitle}}</span>
+    </div>
+
+
+<div class="update-team-wrapers">
+    <form [formGroup]="addTeamForm" (ngSubmit)="onSubmit(addTeamForm.value)">
+    <!-- <div *ngIf="name || country || money || titles || division" class="creating-team-message">
+      <span> you are going to create a new team: </span>
+      <ul>
+        <li>Name:  {{ name }}</li>
+        <li>Country:  {{ country }}</li>
+        <li>Money:  {{ money | currency }}</li>
+        <li>Titles: {{ titles }} </li>
+        <li>Division: {{ division }} </li>
+      </ul>
+    </div> -->
+  
+  
+    <div class="example-container">
+      <mat-form-field class="form-field">
+        <input #nameinput 
+              matInput 
+              placeholder="Name" 
+              (keyup)="setTeamProperties(nameinput.value, countryinput.value, moneyinput.value, titlesinput.value, divisioninput.value)"
+              formControlName="name">
+      </mat-form-field>
+    </div>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Country</mat-label>
+      <mat-select #countryinput (selectionChange)="onCountrySelection($event.value)" formControlName="country">
+        <mat-option *ngFor="let c of countries" [value]="c.value">
+          <div class="flag-icon">
+            <img src="{{c.flagUrl}}" height="30" width="30"></div>
+          <div class="country">{{c.viewValue}}</div>
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <div class="example-container">
+      <mat-form-field class="form-field">
+        <input type="number" #moneyinput matInput placeholder="Money"
+        (keyup)="setTeamProperties(nameinput.value, countryinput.value, moneyinput.value, titlesinput.value, divisioninput.value)"
+        formControlName="money">
+      </mat-form-field>
+    </div>
+  
+    <div class="example-container">
+      <mat-form-field class="form-field">
+        <input type="number" #titlesinput matInput placeholder="Titles"
+        (keyup)="setTeamProperties(nameinput.value, countryinput.value, moneyinput.value, titlesinput.value, divisioninput.value)"
+        formControlName="titles">
+      </mat-form-field>
+    </div>
+  
+    <div class="example-container">
+      <mat-form-field class="form-field">
+        <input type="number" #divisioninput matInput placeholder="Division"
+        (keyup)="setTeamProperties(nameinput.value, countryinput.value, moneyinput.value, titlesinput.value, divisioninput.value)"
+        formControlName="division">
+      </mat-form-field>
+    </div>
+  
+    <div class="buttons">
+        <button mat-raised-button 
+                [disabled]="!addTeamForm.valid">
+                Submit
+        </button>
+    </div>
+    </form>
+  </div>
+
+</div>

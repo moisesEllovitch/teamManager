@@ -1,0 +1,83 @@
+.table-teams-wrapers{
+    margin: auto;
+    width: 80%;
+
+    .teams-toobar-left{
+        display: inline-table;
+        margin: 10px 0;
+    
+        .btn-add {
+            vertical-align: middle; 
+            width: 50px; 
+            height: auto;
+            margin: 10px 28px 10px 0;
+        }
+
+        .btn-add:hover{
+            width: 60px;
+            cursor: pointer;
+        }
+    }
+
+    .divisions-arrow-text{
+        float: right;
+        text-align: center;
+        margin: 10px 0;
+
+        .divisions-text{
+            color: #b48608;
+            font-family: "Droid serif", serif;
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .arrow-divisions{
+            vertical-align: middle; 
+            width: 100px; // blue
+            // width: 60px; // red 
+            height: auto;
+            float: right;
+               
+            // inverter
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        .arrow-divisions:hover{
+            width: 120px;
+            cursor: pointer;  
+        }
+
+
+    }
+
+    .table-teams{
+        width: 100%;
+
+        .mat-header-row{
+            background-color:#fada24;
+        }
+    
+        .mat-row{
+            background-color:#f5e9a3;
+        }
+    }
+
+    ::ng-deep .mat-paginator {
+        background-color: #cdf4a9;
+    }
+   
+
+    .team-name a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+    }
+
+    .team-name:hover{
+        font-size: 18px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,83 @@
+<div class="divisions-arrow-text">
+    <div>
+        <span class="divisions-text">back</span>
+    </div>
+    <a routerLink="/teams">
+        <img src="../../../assets/images/arrow-1.png" class="arrow-divisions" title="divisions">
+        <!-- <img src="../../../assets/images/arrow-2.png" class="arrow-divisions" title="divisions"> -->
+    </a>
+</div>
+
+
+<div class="teams-container">
+  <h2>Teams</h2>
+
+  <div
+    cdkDropList
+    #teams="cdkDropList"
+    [cdkDropListData]="all_teams"
+    [cdkDropListConnectedTo]="[division_A, division_B, division_C, division_D]"
+    class="teams-list"
+    (cdkDropListDropped)="drop($event)">
+    <div class="team-box" *ngFor="let team of all_teams" cdkDrag>{{team.name}}</div>
+  </div>
+</div>
+
+<div class="divisions-container">
+    <div class="division-container division_A-container">
+    <h2>Division A</h2>
+
+    <div
+        cdkDropList
+        #division_A="cdkDropList"
+        [cdkDropListData]="division_A_teams"
+        [cdkDropListConnectedTo]="[teams, division_B, division_C, division_D]"
+        class="division-list division_A-list"
+        (cdkDropListDropped)="drop($event)">
+        <div class="division-box division_A-box" *ngFor="let team of division_A_teams" cdkDrag>{{team.name}}</div>
+    </div>
+    </div>
+
+    <div class="division-container division_B-container">
+        <h2>Division B</h2>
+    
+        <div
+        cdkDropList
+        #division_B="cdkDropList"
+        [cdkDropListData]="division_B_teams"
+        [cdkDropListConnectedTo]="[division_A, teams, division_C, division_D]"
+        class="division-list division_B-list"
+        (cdkDropListDropped)="drop($event)">
+        <div class="division-box division_B-box" *ngFor="let team of division_B_teams" cdkDrag>{{team.name}}</div>
+        </div>
+    </div>
+
+    <div class="division-container division_C-container">
+        <h2>Division C</h2>
+    
+        <div
+        cdkDropList
+        #division_C="cdkDropList"
+        [cdkDropListData]="division_C_teams"
+        [cdkDropListConnectedTo]="[division_A, division_B, teams, division_D]"
+        class="division-list division_C-list"
+        (cdkDropListDropped)="drop($event)">
+        <div class="division-box division_C-box" *ngFor="let team of division_C_teams" cdkDrag>{{team.name}}</div>
+        </div>
+    </div>
+
+    <div class="division-container division_D-container">
+        <h2>Division D</h2>
+    
+        <div
+        cdkDropList
+        #division_D="cdkDropList"
+        [cdkDropListData]="division_D_teams"
+        [cdkDropListConnectedTo]="[division_A, division_B, division_C, teams]"
+        class="division-list division_D-list"
+        (cdkDropListDropped)="drop($event)">
+        <div class="division-box division_D-box" *ngFor="let team of division_D_teams" cdkDrag>{{team.name}}</div>
+        </div>
+    </div>
+</div>
+  

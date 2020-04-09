@@ -1,0 +1,6 @@
+
+<div 
+class="square" 
+(click)="selectSquare()" 
+[ngClass]="{'x': notEmptyX, 'empty': this.square.isEmpty, 'o': notEmptyO, 'square-win': this.square.isWin}">
+</div>

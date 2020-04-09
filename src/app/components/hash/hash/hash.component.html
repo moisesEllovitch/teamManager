@@ -1,0 +1,12 @@
+<div style="text-align: center;"><h2>טיק טק-בוהן</h2> <br />
+<input type="button" value="Restart" (click)="Restart()"> <br /><br />
+
+  <div class="wrapper">
+  <app-square *ngFor="let s of squares" 
+  [square]=s 
+  [isXTurn]=isXTurn 
+  [isFinished]=isGameFinished
+  (changeTurn)="ChangeTurn($event)" 
+  (updateSquare)="updateSquare($event)" ></app-square>
+  </div>
+</div>

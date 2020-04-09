@@ -1,0 +1,25 @@
+.home-content{
+    // background-color: hotpink;
+    margin: 2% 6%;
+}
+
+.inner-text{
+    margin: 1%;
+
+    p{
+        margin: 3% 0;
+    }
+}
+
+.enjoy{
+    text-align: right;
+    padding: 0 2% 2% 0;
+    position: relative;
+
+    h3{
+        display: inline-block;
+        position: absolute;
+        bottom: 13px;
+        right: 56px;
+    }
+}

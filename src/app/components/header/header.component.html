@@ -1,0 +1,20 @@
+<div class="wraper-title-page">
+  <div class="title-page">
+    <h1>
+      {{ title }}
+    </h1>
+  </div>
+</div>
+
+<div class="navbar">  
+  <!-- <button mat-raised-button class="menu-btn"><a routerLink="/" class="menu-btn-text">Index</a></button> -->
+  <button mat-raised-button class="menu-btn"><a routerLink="/home" class="menu-btn-text">Home</a></button>
+  <button mat-raised-button class="menu-btn"><a routerLink="/teams" class="menu-btn-text">Teams</a></button>
+  <!-- <button mat-raised-button class="menu-btn"><a routerLink="/crudteams" class="menu-btn-text">Add Teams</a></button> -->
+  <button mat-raised-button class="menu-btn"><a routerLink="/hash" class="menu-btn-text">Play Hash (game)</a></button>
+  
+  <button mat-fab class="menu-btn reset-btn" (click)="resetApp()">RESET</button>
+</div>
+
+<!-- with param: -->
+<!-- [routerLink]="['/product-details', product.id]" -->

@@ -1,0 +1,59 @@
+// .example-container {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+// }
+
+// .example-events {
+//   width: 300px;
+//   height: 200px;
+//   overflow: auto;
+//   border: 1px solid #555;
+// }
+
+.navbar{
+    height: 81px;
+    // background: #f56767;
+    line-height: 72px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+
+    background: #eac503;
+  }
+  
+  .wraper-title-page{
+    // background: #d26565;
+    background: #0d8389;
+  }
+  
+  .title-page{
+    text-align: center; 
+    // background: #ffffff;
+    width: 275px;
+    margin: auto;
+    // color: #f56767;
+
+    color: #a23131;
+    background: #fed81a;
+  }
+  
+  .menu-btn {
+    // background-color: #ba78f1;
+    // margin: 0 20px;
+    background-color: #f9db27;
+    margin: 0 20px;
+  }
+  
+  .menu-btn-text{
+    // color: white;
+    color: #a23131;
+  }
+
+
+  .reset-btn{
+    background-color: #a23131;
+    color: #f9db27;
+  }

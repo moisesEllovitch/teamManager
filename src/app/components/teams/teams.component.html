@@ -1,0 +1,71 @@
+<div class="table-teams-wrapers">
+
+  <div class="teams-toobar-left">
+    <!-- <a routerLink="/addTeam"> -->
+      <img src="../../../assets/images/add.jpeg" class="btn-add" (click)='openDialogAddOrUpdate(null)'>
+    <!-- </a> -->
+
+    <mat-form-field>
+      <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Search">
+    </mat-form-field>
+  </div>
+
+  <div class="divisions-arrow-text">
+    <div>
+      <span class="divisions-text">divisions</span>
+    </div>
+    <a routerLink="/divisions">
+      <img src="../../../assets/images/arrow-1.png" class="arrow-divisions" title="divisions">
+      <!-- <img src="../../../assets/images/arrow-2.png" class="arrow-divisions" title="divisions"> -->
+    </a>
+  </div>
+
+
+  <table mat-table [dataSource]="dataSource" 
+        matSort 
+        class="mat-elevation-z8 table-teams">
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+      <td mat-cell *matCellDef="let element"> 
+        <div class="team-name" (click)='openDialogAddOrUpdate(element)' >
+          {{element.name}} 
+        </div>
+      </td>
+      </ng-container>
+
+    <ng-container matColumnDef="country">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Country </th>
+      <td mat-cell *matCellDef="let element"> {{element.country}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="money">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Money </th>
+      <td mat-cell *matCellDef="let element"> {{element.money | currency}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="titles">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Titles </th>
+      <td mat-cell *matCellDef="let element"> {{element.titles}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="division">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Division </th>
+      <td mat-cell *matCellDef="let element"> {{element.division}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="delete">
+      <th mat-header-cell *matHeaderCellDef> Delete </th>
+      <td mat-cell *matCellDef="let element"> 
+        <img src="../../../assets/images/icon-remove.jpg" width="30px" height="30px" (click)='delete(element.id);'> 
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[10, 5, 25, 100]"></mat-paginator>
+</div>
+
+
+<!-- <app-team-details *ngIf='isDetailsOpen' [team]='teamOpenDetails' (isCloseDetails)='closeDetailsDiv($event)'></app-team-details> -->

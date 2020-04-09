@@ -1,0 +1,234 @@
+.teams-container {
+    width: 400px;
+    max-width: 100%;
+    // margin: 0 25px 25px 0;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+
+    height: 750px;
+
+    h2{
+        text-align: center;
+    }
+}
+  
+.teams-list {
+    // border: solid 1px #ccc;
+    // background: white;
+    // border-radius: 4px;
+    min-height: 60px;
+    overflow: hidden;
+    display: block;
+}
+  
+.team-box {
+    padding: 20px 10px;
+    border-bottom: solid 1px #ccc;
+    // color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: move;
+    // background: white;
+    font-size: 24px;
+
+    // color: rgba(104, 112, 63, 0.87);
+    // background: rgb(227,212,113);
+    // background: linear-gradient(90deg, rgba(227,212,113,1) 0%, rgba(157,137,17,1) 50%, rgba(227,212,113,1) 100%);
+    border-radius: 25px;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+
+    color: #DAA520;
+    background: linear-gradient(90deg, rgba(3,88,92,1) 0%, rgba(17,151,157,1) 50%, rgba(3,88,92,1) 100%);
+}
+
+.divisions-container{
+    position: relative;
+    // background: red;
+    width: 60%;
+    height: 600px;
+    // margin: 3% 5%;
+    // margin: 2%;
+    margin: 2% 2% 10% 2%;
+    display: inline-block;
+}
+
+.division-container{
+    position: absolute;
+
+    margin: 2%;
+    padding: 1%;
+    // width: 30%;
+    // height: 30%;
+    width: 45%;
+    height: 50%;
+
+    h2{
+        text-align: center;
+    }
+
+    .division-list{
+        // border: solid 1px #ccc;
+        // border-radius: 4px;
+        // background: white;
+        min-height: 60px;
+        overflow: hidden;
+        display: block;
+        max-height: 213px;
+
+        .division-box{
+
+            // padding: 20px 10px;
+            padding: 10px;
+            border-bottom: solid 1px #ccc;
+            // color: rgba(0, 0, 0, 0.87);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            cursor: move;
+            // background: white;
+            font-size: 14px;
+
+
+            color: rgba(104, 112, 63, 0.87);
+            // background: rgb(227,212,113);
+            // background: linear-gradient(90deg, rgba(227,212,113,1) 0%, rgba(157,137,17,1) 50%, rgba(227,212,113,1) 100%);
+            background: linear-gradient(90deg, rgba(157,137,17,1) 0%, rgba(227,212,113,1) 50%, rgba(157,137,17,1) 100%);
+            border-radius: 25px;
+            width: 60%;
+            margin: auto;
+            justify-content: center;
+        }
+    }
+}
+
+
+.division_A-container{
+
+    // background: aqua;
+    border: solid #98c098 3px;
+
+
+    .division_A-list{
+        .division_A-box{
+
+        }
+    }
+}
+
+.division_B-container{
+
+    // background: #98c098;
+    left: 63%;
+
+    border: solid #98c098 3px;
+
+    .division_B-list{
+        .division_B-box{
+
+        }
+    }
+}
+
+.division_C-container{
+
+    // background: blue;
+    top: 68%;
+    border: solid #98c098 3px;
+
+    .division_C-list{
+        .division_C-box{
+
+        }
+    }
+}
+
+.division_D-container{
+
+    // background: yellow;
+    left: 63%;
+    top: 68%;
+    border: solid #98c098 3px;
+
+    .division_D-list{
+        .division_D-box{
+
+        }
+    }
+}
+
+
+
+
+
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+  
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .team-box:last-child {
+    border: none;
+  }
+  
+  .teams-list.cdk-drop-list-dragging .team-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .divisions-arrow-text{
+    // float: right;
+    // text-align: center;
+    // margin: 10px 0;
+    margin-top: 1%;
+
+    .divisions-text{
+        color: #b48608;
+        font-family: "Droid serif", serif;
+        font-size: 16px;
+        font-style: italic;
+
+        // display: block;
+        // width: 100%;
+        margin: 1% 5%;
+    }
+
+    .arrow-divisions{
+        vertical-align: middle; 
+        width: 50px; // blue
+        // width: 60px; // red 
+        height: auto;
+        // float: right;
+    
+        cursor: pointer;
+    
+        margin: 1% 4%;
+
+        // inverter
+        // -moz-transform: scaleX(-1);
+        // -o-transform: scaleX(-1);
+        // -webkit-transform: scaleX(-1);
+        // transform: scaleX(-1);
+    }
+
+    a{
+        display: inline-block;
+        margin: 0 4%;
+    }
+}

@@ -1,0 +1,23 @@
+.square{
+    width: 90px;
+    height: 87px;
+    /* background: red; */
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+    border: solid 3px black;
+}
+
+.o{
+    background-image: url("../../../../assets/images/red_o.png");
+    background-size: cover;
+
+}
+.x{
+    background-image: url("../../../../assets/images/blue_x.jpg");
+    background-size: cover;
+}
+
+.square-win{
+    border-color: yellow !important;
+}
