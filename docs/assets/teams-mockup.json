@@ -1,0 +1,121 @@
+[
+    {"id": 1, "name": "Juventus", "country": "Italia", "money": 1500000, "titles": 5, "division": 0, "players": [
+      {"id": 1, "name": "juv_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+      {"id": 2, "name": "juv_player 2", "positionCode": 2, "positionDesc": "Defending"},
+      {"id": 3, "name": "juv_player 3", "positionCode": 2, "positionDesc": "Defending"},
+      {"id": 4, "name": "juv_player 4", "positionCode": 2, "positionDesc": "Defending"},
+      {"id": 5, "name": "juv_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+      {"id": 6, "name": "juv_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+      {"id": 7, "name": "juv_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+      {"id": 8, "name": "juv_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+      {"id": 9, "name": "juv_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+      {"id": 10, "name": "juv_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+      {"id": 11, "name": "juv_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+    ]},
+    {"id": 2, "name": "Flamengo", "country": "Brazil", "money": 1300300, "titles": 4, "division": 0, "players": [
+        {"id": 12, "name": "fla_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 13, "name": "fla_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 14, "name": "fla_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 15, "name": "fla_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 16, "name": "fla_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 17, "name": "fla_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 18, "name": "fla_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 19, "name": "fla_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 20, "name": "fla_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 21, "name": "fla_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 22, "name": "fla_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+
+      {"id": 3, "name": "Vasco", "country": "Brazil", "money": 1260000, "titles": 2, "division": 2, "players": [
+        {"id": 24, "name": "vas_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 25, "name": "vas_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 26, "name": "vas_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 27, "name": "vas_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 28, "name": "vas_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 29, "name": "vas_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 30, "name": "vas_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 31, "name": "vas_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 32, "name": "vas_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 33, "name": "vas_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 34, "name": "vas_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+      {"id": 4, "name": "Botafogo", "country": "Brazil", "money": 690000, "titles": 0, "division": 3, "players": [
+        {"id": 35, "name": "bot_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 36, "name": "bot_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 37, "name": "bot_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 38, "name": "bot_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 39, "name": "bot_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 40, "name": "bot_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 41, "name": "bot_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 42, "name": "bot_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 43, "name": "bot_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 44, "name": "bot_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 45, "name": "bot_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+      {"id": 5, "name": "Real Madrid", "country": "Spain", "money": 3220000, "titles": 13, "division": 4, "players": [
+        {"id": 46, "name": "rma_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 47, "name": "rma_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 48, "name": "rma_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 49, "name": "rma_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 50, "name": "rma_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 51, "name": "rma_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 52, "name": "rma_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 53, "name": "rma_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 54, "name": "rma_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 55, "name": "rma_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 56, "name": "rma_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+      {"id": 6, "name": "Barcelona", "country": "Spain", "money": 3900400, "titles": 18, "division": 4, "players": [
+        {"id": 57, "name": "bar_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 58, "name": "bar_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 59, "name": "bar_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 60, "name": "bar_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 61, "name": "bar_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 62, "name": "bar_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 63, "name": "bar_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 64, "name": "bar_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 65, "name": "bar_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 66, "name": "bar_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 67, "name": "bar_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+      {"id": 7, "name": "Manchester United", "country": "England", "money": 5504300, "titles": 9, "division": 3, "players": [
+        {"id": 68, "name": "man_united 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 69, "name": "man_united 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 70, "name": "man_united 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 71, "name": "man_united 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 72, "name": "man_united 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 73, "name": "man_united 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 74, "name": "man_united 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 75, "name": "man_united 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 76, "name": "man_united 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 77, "name": "man_united 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 78, "name": "man_united 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+      {"id": 8, "name": "Porto", "country": "Portugal", "money": 1200000, "titles": 1, "division": 2, "players": [
+        {"id": 79, "name": "por_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 80, "name": "por_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 81, "name": "por_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 82, "name": "por_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 83, "name": "por_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 84, "name": "por_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 85, "name": "por_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 86, "name": "por_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 87, "name": "por_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 88, "name": "por_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 89, "name": "por_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]},
+      {"id": 9, "name": "Bayer", "country": "Germany", "money": 1700800, "titles": 3, "division": 1, "players": [
+        {"id": 90, "name": "bayer_player 1", "positionCode": 1, "positionDesc": "Goalkeeper"},
+        {"id": 91, "name": "bayer_player 2", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 92, "name": "bayer_player 3", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 93, "name": "bayer_player 4", "positionCode": 2, "positionDesc": "Defending"},
+        {"id": 94, "name": "bayer_player 5", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 95, "name": "bayer_player 6", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 96, "name": "bayer_player 7", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 97, "name": "bayer_player 8", "positionCode": 3, "positionDesc": "Midfielder"},
+        {"id": 98, "name": "bayer_player 9", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 99, "name": "bayer_player 10", "positionCode": 4, "positionDesc": "Attacking"},
+        {"id": 100, "name": "bayer_player 11", "positionCode": 4, "positionDesc": "Attacking"}
+      ]}
+]
+   
