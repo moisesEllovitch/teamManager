@@ -1,18 +1,3 @@
-// .example-container {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-// }
-
-// .example-events {
-//   width: 300px;
-//   height: 200px;
-//   overflow: auto;
-//   border: 1px solid #555;
-// }
-
 .navbar{
     height: 81px;
     // background: #f56767;
@@ -56,4 +41,14 @@
   .reset-btn{
     background-color: #a23131;
     color: #f9db27;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+
+    .menu-btn {
+      margin: 0 1%;
+      padding: 0 1%;
+    }
+
   }
