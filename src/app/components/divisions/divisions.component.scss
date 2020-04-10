@@ -38,7 +38,8 @@
     // color: rgba(104, 112, 63, 0.87);
     // background: rgb(227,212,113);
     // background: linear-gradient(90deg, rgba(227,212,113,1) 0%, rgba(157,137,17,1) 50%, rgba(227,212,113,1) 100%);
-    border-radius: 25px;
+    // border-radius: 25px;
+    border-radius: 5%;
     width: 60%;
     margin: auto;
     justify-content: center;
@@ -48,13 +49,13 @@
     // background: linear-gradient(90deg, rgba(3,88,92,1) 0%, rgba(17,151,157,1) 50%, rgba(3,88,92,1) 100%);
 
     // background: linear-gradient(90deg, rgba(157,137,17,1) 0%, rgba(227,212,113,1) 50%, rgba(157,137,17,1) 100%);
-    background: linear-gradient(90deg, #a79321 0%, #e3d471 50%, #a79321 100%);
+    background: linear-gradient(to top, #a79321 0%, #e3d471 50%, #a79321 100%);
 }
 
 .divisions-container{
     position: relative;
     // background: red;
-    width: 60%;
+    width: 55%;
     height: 600px;
     // margin: 3% 5%;
     // margin: 2%;
@@ -64,7 +65,8 @@
 
 .division-container{
     position: absolute;
-
+    border: solid #98c098 3px;
+    
     margin: 2%;
     padding: 1%;
     // width: 30%;
@@ -105,8 +107,9 @@
             // background: rgb(227,212,113);
             // background: linear-gradient(90deg, rgba(227,212,113,1) 0%, rgba(157,137,17,1) 50%, rgba(227,212,113,1) 100%);
             // background: linear-gradient(90deg, rgba(157,137,17,1) 0%, rgba(227,212,113,1) 50%, rgba(157,137,17,1) 100%);
-            background: linear-gradient(to right, #deb881, #fcea83, #deb881);
-            border-radius: 25px;
+            background: linear-gradient(to top, #deb881, #fcea83, #deb881);
+            // border-radius: 25px;
+            border-radius: 5%;
             width: 60%;
             margin: auto;
             justify-content: center;
@@ -118,7 +121,7 @@
 .division_A-container{
 
     // background: aqua;
-    border: solid #98c098 3px;
+    //border: solid #98c098 3px;
 
 
     .division_A-list{
@@ -133,7 +136,7 @@
     // background: #98c098;
     left: 63%;
 
-    border: solid #98c098 3px;
+    //border: solid #98c098 3px;
 
     .division_B-list{
         .division_B-box{
@@ -146,7 +149,7 @@
 
     // background: blue;
     top: 68%;
-    border: solid #98c098 3px;
+    //border: solid #98c098 3px;
 
     .division_C-list{
         .division_C-box{
@@ -160,7 +163,7 @@
     // background: yellow;
     left: 63%;
     top: 68%;
-    border: solid #98c098 3px;
+    //border: solid #98c098 3px;
 
     .division_D-list{
         .division_D-box{
@@ -238,3 +241,66 @@
         margin: 0 4%;
     }
 }
+
+@media only screen and (max-width: 480px) {
+
+    .teams-container{
+        //background-color: rgb(238, 136, 136);
+        padding-left: 3%;
+        width: 42%;
+     
+        .team-box{
+            width: 80%;
+            font-size: 17px;
+        }
+    }
+
+    .divisions-container{
+       // background-color: rgb(124, 124, 233);
+        width: 45%;
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .division-container{
+        
+        width: 91%;
+        height: 40%;
+        border: solid #98c098 1px;
+
+        h2{
+            font-size: 1em;
+        }
+
+        .division-list{
+            max-height: 108px;
+            overflow-y: scroll;
+
+            .division-box{
+                font-size: 14px;
+                width: 70%;
+            }
+        
+        }
+    }
+
+
+    .division_B-container{
+        top: 44%;
+        left: 0;
+    }
+
+    .division_C-container{
+        top: 88%;
+    }
+
+    .division_D-container{
+        left: 0;
+        top: 132%;
+    }
+
+    .divisions-arrow-text{
+        margin: 1% 0 0 5%;
+    }
+
+  }
