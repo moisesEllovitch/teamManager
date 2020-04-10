@@ -1,9 +1,12 @@
 .title-dialog{
     text-align: center;
-    background: #eac503;
+    // background: #eac503;
     padding: 20px 0;
     margin-bottom: 6%;
     font-size: 26px;
+
+    background: #bd770f;
+    color: #fbead0;
 }
 
 .update-team-wrapers{
@@ -18,7 +21,9 @@
     text-align: center;
     
     button{
-        color: #a23131;
+        // color: #a23131;
+        color: #fdf4e7;
+        background: #bd770f;
     }
 }
 

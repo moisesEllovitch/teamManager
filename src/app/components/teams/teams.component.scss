@@ -25,7 +25,8 @@
         margin: 10px 0;
 
         .divisions-text{
-            color: #b48608;
+            // color: #b48608;
+            color: #a5680d;
             font-family: "Droid serif", serif;
             font-size: 25px;
             font-style: italic;
@@ -57,16 +58,19 @@
         width: 100%;
 
         .mat-header-row{
-            background-color:#fada24;
+            // background-color:#fada24;
+            background-color: #d4a35e;
         }
     
         .mat-row{
-            background-color:#f5e9a3;
+            // background-color:#f5e9a3;
+            background-color:#faf4d1;
         }
     }
 
     ::ng-deep .mat-paginator {
-        background-color: #cdf4a9;
+        // background-color: #cdf4a9;
+        background-color: #fcf9e8;
     }
    
 

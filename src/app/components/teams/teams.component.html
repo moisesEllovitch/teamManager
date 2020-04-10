@@ -17,6 +17,8 @@
     <a routerLink="/divisions">
       <img src="../../../assets/images/arrow-1.png" class="arrow-divisions" title="divisions">
       <!-- <img src="../../../assets/images/arrow-2.png" class="arrow-divisions" title="divisions"> -->
+      <!-- <img src="../../../assets/images/arrow-4.jpg" class="arrow-divisions" title="divisions"> -->
+      <!-- <mat-icon mat-list-icon class="arrow-divisions">arrow_right_alt</mat-icon> -->
     </a>
   </div>
 
@@ -56,7 +58,8 @@
     <ng-container matColumnDef="delete">
       <th mat-header-cell *matHeaderCellDef> Delete </th>
       <td mat-cell *matCellDef="let element"> 
-        <img src="../../../assets/images/icon-remove.jpg" width="30px" height="30px" (click)='delete(element.id);'> 
+        <!-- <img src="../../../assets/images/icon-remove.jpg" width="30px" height="30px" (click)='delete(element.id);'>  -->
+        <mat-icon mat-list-icon (click)='delete(element.id);'>delete</mat-icon>
       </td>
     </ng-container>
 

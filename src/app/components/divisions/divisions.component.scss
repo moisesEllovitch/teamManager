@@ -43,8 +43,12 @@
     margin: auto;
     justify-content: center;
 
-    color: #DAA520;
-    background: linear-gradient(90deg, rgba(3,88,92,1) 0%, rgba(17,151,157,1) 50%, rgba(3,88,92,1) 100%);
+    // color: #DAA520;
+    color: #82775d;
+    // background: linear-gradient(90deg, rgba(3,88,92,1) 0%, rgba(17,151,157,1) 50%, rgba(3,88,92,1) 100%);
+
+    // background: linear-gradient(90deg, rgba(157,137,17,1) 0%, rgba(227,212,113,1) 50%, rgba(157,137,17,1) 100%);
+    background: linear-gradient(90deg, #a79321 0%, #e3d471 50%, #a79321 100%);
 }
 
 .divisions-container{
@@ -100,7 +104,8 @@
             color: rgba(104, 112, 63, 0.87);
             // background: rgb(227,212,113);
             // background: linear-gradient(90deg, rgba(227,212,113,1) 0%, rgba(157,137,17,1) 50%, rgba(227,212,113,1) 100%);
-            background: linear-gradient(90deg, rgba(157,137,17,1) 0%, rgba(227,212,113,1) 50%, rgba(157,137,17,1) 100%);
+            // background: linear-gradient(90deg, rgba(157,137,17,1) 0%, rgba(227,212,113,1) 50%, rgba(157,137,17,1) 100%);
+            background: linear-gradient(to right, #deb881, #fcea83, #deb881);
             border-radius: 25px;
             width: 60%;
             margin: auto;
@@ -199,7 +204,8 @@
     margin-top: 1%;
 
     .divisions-text{
-        color: #b48608;
+        // color: #b48608;
+        color: #a5680d;
         font-family: "Droid serif", serif;
         font-size: 16px;
         font-style: italic;
