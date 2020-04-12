@@ -13,7 +13,7 @@
 
 .enjoy{
     text-align: right;
-    padding: 0 2% 2% 0;
+    padding: 0% 2% 2% 0;
     position: relative;
 
     h3{
@@ -31,4 +31,10 @@
         padding-top: 8%;
     }
 
+  }
+
+  @media (max-width:1199px) and (min-width:481px) {
+    .enjoy {
+        padding-top: 8%;
+    }
   }

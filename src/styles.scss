@@ -32,3 +32,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }
 
   }
+
+  @media (max-width:600px) and (min-width:481px) {
+    html, body {
+        width: 600px;
+      }
+  }
+
+  @media (max-width:900px) and (min-width:601px) {
+    html, body {
+        width: 900px;
+      }
+  }
+
+  @media (max-width:1199px) and (min-width:901px) {
+    html, body {
+        width: 1199px;
+      }
+  }
