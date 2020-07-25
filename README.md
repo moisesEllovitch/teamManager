@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+Link deploy tutorial
+https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147 
+
+Aposter tudo configurado no Github e Heroku (primeira vez), basta:
+- rodar no comand: node server.js
+- abrir projeto localhost 8080
+(confirmar que ta tudo ok)
+
+- ng build
+
+- ir no github e subir os arquivos (todos)
+- na aba code, tem add file (upload file)
+- maximo 100, entao fazer por partes.
+nao precisa subir node modules.
+
+Ao upload os arquivos, automaticamente comecara a rodar no heroku o deploy...
+se tudo estiver ok, o site ja foi atualizado.
