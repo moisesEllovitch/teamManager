@@ -1,3 +1,8 @@
+// export class Teams{
+//     teams : Team[];
+// }
+
+
 export class Team {
     id: number;
     name : string;

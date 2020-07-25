@@ -1,0 +1,28 @@
+.json-types-wrapers{
+    margin: auto;
+    width: 80%;
+    margin-top: 3%;
+
+    .list-wraper{
+        display: flex;
+        justify-content: center;
+
+        .json-home-wrap-list-item{
+            width: 25%;
+            padding: 2% 0;
+            font-size: 1.5em;
+            margin: 3% 5%;
+
+
+            border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #d79b45, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+        }
+    }
+}
+

@@ -37,7 +37,9 @@ import { DivisionsComponent } from './components/divisions/divisions.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { UpdateTeamDialogComponent } from './dialogs/update-team-dialog/update-team-dialog.component';
 
-import { MatDialogModule, MatTabsModule } from '@angular/material'
+import { MatDialogModule, MatTabsModule } from '@angular/material';
+import { JsonHomeComponent } from './components/json-home/json-home.component';
+import { DisplayJsonDialogComponent } from './dialogs/display-json-dialog/display-json-dialog.component';
 
 
 
@@ -55,6 +57,8 @@ import { MatDialogModule, MatTabsModule } from '@angular/material'
     FooterComponent,
     DivisionsComponent,
     UpdateTeamDialogComponent,
+    JsonHomeComponent,
+    DisplayJsonDialogComponent,
     //TeamsService,
   ],
   imports: [
@@ -105,6 +109,11 @@ import { MatDialogModule, MatTabsModule } from '@angular/material'
     //TeamsService,
   ],
   bootstrap: [AppComponent],
-  entryComponents: [MessagesSnackBarComponent, UpdateTeamDialogComponent],
+  entryComponents: [
+    MessagesSnackBarComponent, 
+    UpdateTeamDialogComponent,
+    DisplayJsonDialogComponent,
+  
+  ],
 })
 export class AppModule { }

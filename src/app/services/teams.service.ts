@@ -56,6 +56,7 @@ export class TeamsService {
     }
   }
 
+
   updateTeam(_id: number ,_name : string, _country : string, _money : number, _titles : number, _division : number) : boolean{
     try{
 
@@ -79,7 +80,27 @@ export class TeamsService {
     }
   }
 
+  // getNewId() : number{
+  //   try{
 
+  //     if(localStorage.getItem('teams_new') != null){
+  //       let t : Teams = JSON.parse(localStorage.getItem('teams_new'));
+  //       this.teams_new = t;
+  //       return this.teams[this.teams.length-1].id + 1;
+  //     } else{
+
+  //       this.getTeams().subscribe(ts => {
+  //         localStorage.setItem('teams_new', JSON.stringify(ts));
+  //         this.teams = ts;
+  //         return this.teams[this.teams.length-1].id + 1;
+          
+  //       });
+  //     }
+
+  //   } catch {
+  //     console.log('file: teams.service.ts; Method: getNewId');
+  //   }
+  // }
 
   getNewId() : number{
     try{
@@ -101,5 +122,5 @@ export class TeamsService {
     } catch {
       console.log('file: teams.service.ts; Method: getNewId');
     }
-  };
+  }
 }

@@ -6,6 +6,7 @@ import { TeamsComponent } from './components/teams/teams.component';
 import { HashComponent } from './components/hash/hash/hash.component';
 // import { TeamComponent } from './components/team/team.component';
 import { DivisionsComponent } from './components/divisions/divisions.component';
+import { JsonHomeComponent } from './components/json-home/json-home.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   // { path: 'addTeam', component: AddTeamsComponent },
   { path: 'hash', component: HashComponent },
   { path: 'divisions', component: DivisionsComponent },
+  { path: 'json-home', component: JsonHomeComponent },
 
   { path: '', component: HomeComponent },
   

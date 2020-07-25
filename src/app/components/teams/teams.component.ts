@@ -15,20 +15,7 @@ import { UpdateTeamDialogComponent } from 'src/app/dialogs/update-team-dialog/up
 })
 export class TeamsComponent implements OnInit {
 
-  // teams : Team[] = [
-  //   {id: 1, name: "Juventus", country: "Italia", money: 1500000, titles: 5},
-  //   {id: 2, name: "Flamengo", country: "Brazil", money: 1300300, titles: 4},
-  //   {id: 3, name: "Vasco", country: "Brazil", money: 1260000, titles: 2},
-  //   {id: 4, name: "Botafogo", country: "Brazil", money: 690000, titles: 0},
-  //   {id: 5, name: "Real Madrid", country: "Spain", money: 3220000, titles: 13},
-  //   {id: 6, name: "Barcelona", country: "Spain", money: 3900400, titles: 18},
-  //   {id: 7, name: "Manchester United", country: "England", money: 5504300, titles: 9},
-  //   {id: 8, name: "Porto", country: "Portugal", money: 1200000, titles: 1},
-  //   {id: 9, name: "Bayer", country: "Germany", money: 1700800, titles: 3}
-  // ];
-
   displayedColumns: string[] = ['name', 'country', 'money', 'titles', 'division', 'delete'];
-  // dataSource = new MatTableDataSource(this.teams);
   dataSource = new MatTableDataSource();
   teams : Team[];
 
@@ -46,6 +33,7 @@ export class TeamsComponent implements OnInit {
 
   ngOnInit() {
     try{
+
       if(localStorage.getItem('teams') != null){
         let t : Team[] = JSON.parse(localStorage.getItem('teams'));
         this.teams = t;
@@ -95,8 +83,8 @@ export class TeamsComponent implements OnInit {
       this.refreshDataSource();
       this._messagesService.confirmMessage(_name + " was Deleted");
 
-    } catch {
-      console.log('file: teams.component.ts; Method: delete');
+    } catch (e) {
+      console.log('file: teams.component.ts; Method: delete ' + e);
     }
   }
 
