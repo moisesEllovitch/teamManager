@@ -1,0 +1,14 @@
+{
+    "teams": 
+    [
+    {"id": 1, "name": "Juventus", "country": "Italy", "money": 1500000, "titles": 5, "division": 0},
+    {"id": 2, "name": "Flamengo", "country": "Brazil", "money": 1300300, "titles": 4, "division": 0},
+    {"id": 3, "name": "Vasco", "country": "Brazil", "money": 1260000, "titles": 2, "division": 2},
+    {"id": 4, "name": "Botafogo", "country": "Brazil", "money": 690000, "titles": 0, "division": 3},
+    {"id": 5, "name": "Real Madrid", "country": "Spain", "money": 3220000, "titles": 13, "division": 4},
+    {"id": 6, "name": "Barcelona", "country": "Spain", "money": 3900400, "titles": 18, "division": 4},
+    {"id": 7, "name": "Manchester United", "country": "England", "money": 5504300, "titles": 9, "division": 3},
+    {"id": 8, "name": "Porto", "country": "Portugal", "money": 1200000, "titles": 1, "division": 2},
+    {"id": 9, "name": "Bayer", "country": "Germany", "money": 1700800, "titles": 3, "division": 1}
+]
+}
